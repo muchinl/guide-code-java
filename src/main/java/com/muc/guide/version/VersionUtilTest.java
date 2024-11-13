@@ -11,8 +11,8 @@ public class VersionUtilTest {
 
     @Test
     public void stringToVersion() {
-        String versionStr = "2.3.44.55"; // 2.000300440055
-        System.out.println(VersionUtil.convertToDecimal(versionStr));
+        String versionStr = "2.3.44.55";
+        System.out.println(VersionUtil.convertToDecimal(versionStr)); // 2.000300440055
     }
 
     @Test
